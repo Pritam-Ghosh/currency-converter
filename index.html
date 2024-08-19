@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <form action="#">
+      <div class="amount">
+        <p>Enter Amount</p>
+        <input type="text" value="1">
+      </div>
+      <div class="dropdown">
+        <div class="form">
+          <p>Form</p>
+          <div class="select-container">
+            <img id="formImg" src="https://flagsapi.com/US/flat/64.png">
+            <select name="form" id="">
+              <!-- <option value="" selected>USD</option>
+              <option value="">INR</option> -->
+            </select>
+          </div>
+        </div>
+
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        
+        <div class="to">
+          <p>To</p>
+          <div class="select-container">
+            <img id="toImg" src="https://flagsapi.com/IN/flat/64.png">
+            <select name="to" id="">
+              <!-- <option value="">USD</option>
+              <option value="" selected>INR</option> -->
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="msg">$ ----------------</div>
+      <button class="btn">Get Exchange Rate</button>
+    </form>
+  </div>
+
+  <script src="codes.js"></script>
+  <script src="app.js"></script>
+  <script src="https://kit.fontawesome.com/ac015ecc5b.js" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
